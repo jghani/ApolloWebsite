@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+	<title>Apollo! Shoot for the Moon</title>
+</head>
+
+<body>
+	<div id="wrapper">
+		<nav class="navbar">
+			<div class="container">
+				<div class="navbar-inner">
+					<a href="#" class="navbar-logo">
+						<img src="img/logo.png" alt="" class="navbar-logo-img">
+					</a>
+	
+					<div class="navbar-list">
+						<a href="#" class="navbar-link">Schedule</a>
+						<a href="#" class="navbar-link">About Us</a>
+						<a href="#" class="navbar-link">Contact</a>
+					</div>
+	
+					<div class="navbar-list-mobile-box">
+						<div class="navbar-list-mobile">
+							<a href="#" class="navbar-link">
+								<span>Schedule</span>	
+								<img src="img/chevron-right.png" alt="">
+							</a>
+							<a href="#" class="navbar-link">
+								<span>About Us</span>	
+								<img src="img/chevron-right.png" alt="">
+							</a>
+							<a href="#" class="navbar-link">
+								<span>Contact</span>	
+								<img src="img/chevron-right.png" alt="">
+							</a>
+						</div>
+					</div>
+	
+					<button id="navbar-toggler">
+						<svg id="menu-bar" width="52" height="31" viewBox="0 0 52 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M0.235291 3.73529C0.235291 1.94849 1.68378 0.5 3.47058 0.5H48.7647C50.5515 0.5 52 1.94849 52 3.73529C52 5.5221 50.5515 6.97059 48.7647 6.97059H3.47058C1.68378 6.97059 0.235291 5.5221 0.235291 3.73529ZM0.235291 15.5C0.235291 13.7132 1.68378 12.2647 3.47058 12.2647H48.7647C50.5515 12.2647 52 13.7132 52 15.5C52 17.2868 50.5515 18.7353 48.7647 18.7353H3.47058C1.68378 18.7353 0.235291 17.2868 0.235291 15.5ZM0.235291 27.2647C0.235291 25.4779 1.68378 24.0294 3.47058 24.0294H48.7647C50.5515 24.0294 52 25.4779 52 27.2647C52 29.0515 50.5515 30.5 48.7647 30.5H3.47058C1.68378 30.5 0.235291 29.0515 0.235291 27.2647Z" fill="#F9F9F9"/>
+						</svg>
+	
+						<svg id="menu-bar-cross" width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M18.7422 15.5L29.217 5.02527C29.7141 4.52901 29.9937 3.8556 29.9944 3.15318C29.995 2.45075 29.7165 1.77685 29.2203 1.27972C28.724 0.782592 28.0506 0.50296 27.3482 0.502339C26.6458 0.501719 25.9719 0.780162 25.4747 1.27641L15 11.7511L4.52527 1.27641C4.02814 0.779284 3.35389 0.5 2.65084 0.5C1.94779 0.5 1.27354 0.779284 0.776413 1.27641C0.279284 1.77354 0 2.44779 0 3.15084C0 3.85389 0.279284 4.52814 0.776413 5.02527L11.2511 15.5L0.776413 25.9747C0.279284 26.4719 0 27.1461 0 27.8492C0 28.5522 0.279284 29.2265 0.776413 29.7236C1.27354 30.2207 1.94779 30.5 2.65084 30.5C3.35389 30.5 4.02814 30.2207 4.52527 29.7236L15 19.2489L25.4747 29.7236C25.9719 30.2207 26.6461 30.5 27.3492 30.5C28.0522 30.5 28.7265 30.2207 29.2236 29.7236C29.7207 29.2265 30 28.5522 30 27.8492C30 27.1461 29.7207 26.4719 29.2236 25.9747L18.7422 15.5Z" fill="#F9F9F9"/>
+						</svg>
+							
+					</button>
+				</div>
+			</div>
+		</nav>
+	
+		<div class="hero">
+			<div class="container">
+				<h1 class="primary-heading">Shoot for the Moon</h1>
+	
+				<a href="#" class="primary-btn">Learn More</a>
+			</div>
+		</div>
+	
+		<div class="container">
+			<div class="cards-section">
+	
+				<div class="cards__percentage">
+					<p class="primary-text">40% Done</p>
+					<div class="progress-bar">
+						<div class="progress-bar-percentage">
+						</div>
+					</div>
+				</div>
+	
+				<div class="cards">
+					<div class="card">
+						<p class="primary-text">Todo Task 1</p>
+						<div>
+							<input type="checkbox" checked id="btn-1" name="1">
+							<label for="btn-1" class="primary-btn">Done</label>
+						</div>
+					</div>
+	
+					<div class="card">
+						<p class="primary-text">Todo Task 2</p>
+						<div>
+							<input type="checkbox" id="btn-2">
+							<label for="btn-2" class="primary-btn">Mark as Done</label>
+						</div>
+					</div>
+	
+					<div class="card">
+						<p class="primary-text">Todo Task 3</p>
+						<div>
+							<input type="checkbox" id="btn-3" checked>
+							<label for="btn-3" class="primary-btn">Done</label>
+						</div>
+					</div>
+	
+					<div class="card">
+						<p class="primary-text">Todo Task 4</p>
+						<div>
+							<input type="checkbox" id="btn-4">
+							<label for="btn-4" class="primary-btn">Mark as Done</label>
+						</div>
+	
+					</div>
+					<div class="card">
+						<p class="primary-text">Todo Task 5</p>
+						<div>
+							<input type="checkbox" id="btn-5">
+							<label for="btn-5" class="primary-btn">Mark as Done</label>
+						</div>
+	
+					</div>
+					<div class="card">
+						<p class="primary-text">Todo Task 6</p>
+						<div>
+							<input type="checkbox" id="btn-6" checked>
+							<label for="btn-6" class="primary-btn">Done</label>
+						</div>
+					</div>
+	
+					<div class="card">
+						<p class="primary-text">Todo Task 7</p>
+						<div>
+							<input type="checkbox" id="btn-7" checked>
+							<label for="btn-7" class="primary-btn">Done</label>
+						</div>
+					</div>
+	
+					<div class="card">
+						<p class="primary-text">Todo Task 8</p>
+						<div>
+							<input type="checkbox" id="btn-8">
+							<label for="btn-8" class="primary-btn">Mark as Done</label>
+						</div>
+					</div>
+	
+					<div class="card">
+						<p class="primary-text">Todo Task 9</p>
+						<div>
+							<input type="checkbox" id="btn-9">
+							<label for="btn-9" class="primary-btn">Mark as Done</label>
+						</div>
+					</div>
+	
+					<div class="card">
+						<p class="primary-text">Todo Task 10</p>
+						<div>
+							<input type="checkbox" id="btn-10">
+							<label for="btn-10" class="primary-btn">Mark as Done</label>
+						</div>
+					</div>
+	
+					<div class="card">
+						<p class="primary-text">Todo Task 11</p>
+						<div>
+							<input type="checkbox" id="btn-11" checked>
+							<label for="btn-11" class="primary-btn">Done</label>
+						</div>
+					</div>
+	
+					<div class="card">
+						<p class="primary-text">Todo Task 12</p>
+						<div>
+							<input type="checkbox" id="btn-12">
+							<label for="btn-12" class="primary-btn">Mark as Done</label>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		<footer class="footer">
+	
+		</footer>
+	</div>
+</body>
+<script>
+	const btn = document.getElementById('navbar-toggler')
+	btn.addEventListener('click', () => {
+		document.querySelector('body').classList.toggle('navbar-active');
+	})
+
+</script>
+
+</html>
