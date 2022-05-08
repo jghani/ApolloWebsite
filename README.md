@@ -1,3 +1,3 @@
 # ApolloWebsite
 
-This is landing page I created from a Figma Design.
+This is landing page I created on html/css from a Figma Design.
